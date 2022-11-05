@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICSMISH</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+  <link href="css/master.css" rel="stylesheet">
+  <link rel="stylesheet" href="plugins/iview/css/iview.css" type='text/css' media='all' />
+  <link rel="stylesheet" href="plugins/iview/css/skin/style.css" type='text/css' media='all' />
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/bootstrap-3.1.1.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  
+  <style>
+    .social
+    {
+      position: fixed; /* Hacemos que la posiciÃ³n en pantalla sea fija para que siempre se muestre en pantalla*/
+      display: block;
+      right: 10px; /* Establecemos la barra en la izquierda */
+      top: 45%; /* Bajamos la barra 200px de arriba a abajo */
+      
+      padding: 10px;
+      color:#fff!important;
+      -webkit-transition:all 500ms ease;
+      -o-transition:all 500ms ease;
+      transition:all 500ms ease;}
+
+      .social ul {
+        list-style: none; 
+        margin: 7px;padding: 7px;
+      }
+      
+      .social ul li {text-align: center;margin:7px 7px;}
+      
+
+      .social ul li:hover {padding:5px 11px; opacity: 0.9;}
+      .icono{color:#3ea12a;}
+  </style>
+
+</head>
+
+<body>
+  <!--background-color: #3ea12a;-->
+  <div class="layout-theme animated-css" data-header="sticky" data-header-top="200">
+    <!-- Loader Landing Page -->
+    <div id="ip-container" class="ip-container">
+      <!-- initial header -->
+      <!--<header class="ip-header" >
+      <div class="ip-loader">
+        <div class="text-center">
+          <div class="ip-logo"><img  src="img/Logo_ICSMISH-09.png" height="50" width="294" alt="logo"></div>
+        </div>
+        <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+        <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,39.3,10z"/>
+        <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+        </svg> </div>
+    </header>-->
+    </div>
+    <!-- Loader end -->
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="container">
+        <div class="header-inner">
+          <div class="row">
+            <div class="col-md-4 col-xs-12"> <a href="index.html" class="logo"> <img class="logo__img"
+                  src="img/Logo_ICSMISH-09.png" height="50" width="294" alt="Logo"> </a> </div>
+            <div class="col-md-8 col-xs-12">
+              <div class="header-block">
+                <span class="header-label"> <i class="fa fa-phone fa-2x color_primary"></i>
+                  <span class="helper"><a href="tel:+5219614401046"><strong>+521 961 440 1046</strong></a>
+                  </span>
+                </span>
+                <span class="header-label"> <i class="fa fa-whatsapp fa-2x color_primary"></i>
+                  <!-- <span class="helper"> Whatsapp <a href="https://api.whatsapp.com/send?phone=5219616575933&text=Bienvenido%20al%20Instituto%20en%20Ciencias%20de%20la%20Salud%20y%20Medicina%20Integral%20Samuel%20Hahnemann." target="_blank"></span> -->
+                  <span class="helper"><a href="https://web.whatsapp.com/send?phone=5219614401046&text=Bienvenido%20al%20Instituto%20en%20Ciencias%20de%20la%20Salud%20y%20Medicina%20Integral%20Samuel%20Hahnemann,%20leémos%20tus%20inquietudes." target="_blank"><strong>Whatsapp</strong> </a></span>
+
+                <!--<a class="top-cart" href="/"> <i class="icon  bg-color_primary"></i> Cart Items: 2 
+                  <span class="top-cart__price color_second">$250.00</span></a> -->
+              </div>
+              <!--<form class="hidden-md hidden-lg text-center" id="search-global-mobile" method="get">
+              <input type="text" value="" id="search-mobile" name="s" >
+              <button type="submit"><i class="icon fa fa-search"></i></button>
+            </form>-->
+            </div>
+          </div>
+        </div>
+        <!-- end header-inner-->
+      </div>
+      <!-- end container-->
+      
+      <section class="top-nav ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12  col-xs-12">
+              <div class="navbar yamm ">
+                <div class="navbar-header hidden-md  hidden-lg  hidden-sm ">
+                  <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1"
+                    class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span
+                      class="icon-bar"></span></button>
+                  <a href="#" class="navbar-brand">Menu</a>
+                </div>
+                <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class=""><a href="index.html">Inicio <b class=" color_primary"></b> </a>
+                    </li>
+                    <li class="dropdown"><a href="#">Conocenos<b class="caret color_primary"></b> </a>
+                      <ul role="menu" class="dropdown-menu">
+                        <li> <a href="quienessomos.html"> Quienes Somos</a> </li>
+                        <li> <a href="identidad.html"> Identidad </a> </li>
+                        <li> <a href="reglamento.html"> reglamento</a> </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="services.html"> oferta educativa <b class="caret color_primary"></b>
+                      </a>
+                      <ul role="menu" class="dropdown-menu">
+                        <li> <a href="diplomados.html"> diplomados</a> </li>
+                        <li> <a href="maestrias.html"> Maestrías</a> </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="noticias.html">NOTICIAS <b class="color_primary"></b> </a>
+
+                    </li>
+                    <li class="dropdown"><a href="campus.html">CAMPUS <b class="caret color_primary"></b> </a>                                           
+                          <ul role="menu" class="dropdown-menu">
+                            <li><a href="tuxtla.html">Tuxtla Gutiérrez</a></li>
+                            <li><a href="tapachula.html">Tapachula</a></li>
+                            <li><a href="scc.html">San Cristóbal</a></li>
+                          </ul>                                 
+                    </li>
+
+                    <li><a href="contacto.html">CONTACTO </a> </li>
+                  </ul>
+
+                  <!--<form id="search-global-menu" class="hidden-xs hidden-sm" method="get">
+                  <input type="text" value="" id="search" name="s" >
+                  <button type="submit"><i class="icon-magnifier"></i></button>
+                </form>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end top-nav -->
+    </div>
+    <!-- HEADER END -->
+    <section class="container">
+      <div id="iview" class="main-slider">
+        <div data-iview:thumbnail="#" data-iview:image="media/slider/1.jpg"
+          data-iview:transition="block-drop-random">
+          <!-- <div class="container"> -->
+            <!--<div class="iview-caption bg-no-caption" data-x="660" data-y="143" data-transition="expandLeft">
+            <div class="custom-caption">
+              <p class="slide-title bg-color_second">A Team Of Medical Professionals</p>
+              <p class="slide-title_second">To Take Care Of Your Health</p>
+              <p class="slide-text">Sed posuere nunc libero pellentesque vitae</p>
+              <p class="slide-text">Vestibulum tincidunt ante ipsum</p>
+              <a href="javascript:void(0);" class="btn bg-color_primary">VIEW SERVICES <span class="btn-plus">+</span></a> 
+            </div>
+          </div>-->
+         <!--  </div> -->
+        </div>
+        <div data-iview:thumbnail="#" data-iview:image="media/slider/2.png"
+          data-iview:transition="block-drop-random">
+          <!-- <div class="container"> -->
+            <!--<div class="iview-caption  bg-no-caption" data-x="660" data-y="143" data-transition="expandLeft">
+            <div class="custom-caption">
+              <p class="slide-title bg-color_second">A Team Of Medical Professionals</p>
+              <p class="slide-title_second">To Take Care Of Your Health</p>
+              <p class="slide-text">Sed posuere nunc libero pellentesque vitae</p>
+              <p class="slide-text">Vestibulum tincidunt ante ipsum</p>
+              <a href="javascript:void(0);" class="btn bg-color_primary">VIEW SERVICES <span class="btn-plus">+</span></a> 
+            </div>-->
+          <!-- </div> -->
+        </div>
+        <div data-iview:thumbnail="#" data-iview:image="media/slider/3.png"
+          data-iview:transition="block-drop-random">
+          <!-- <div class="container"> -->
+            <!--<div class="iview-caption  bg-no-caption" data-x="660" data-y="143" data-transition="expandLeft">
+            <div class="custom-caption">
+              <p class="slide-title bg-color_second">A Team Of Medical Professionals</p>
+              <p class="slide-title_second">To Take Care Of Your Health</p>
+              <p class="slide-text">Sed posuere nunc libero pellentesque vitae</p>
+              <p class="slide-text">Vestibulum tincidunt ante ipsum</p>
+              <a href="javascript:void(0);" class="btn bg-color_primary">VIEW SERVICES <span class="btn-plus">+</span></a> 
+            </div>-->
+          <!-- </div> -->
+        </div>
+        <div data-iview:thumbnail="#" data-iview:image="media/slider/4.png"
+          data-iview:transition="block-drop-random">
+          <!-- <div class="container"> -->
+            <!--<div class="iview-caption  bg-no-caption" data-x="660" data-y="143" data-transition="expandLeft">
+            <div class="custom-caption">
+              <p class="slide-title bg-color_second">A Team Of Medical Professionals</p>
+              <p class="slide-title_second">To Take Care Of Your Health</p>
+              <p class="slide-text">Sed posuere nunc libero pellentesque vitae</p>
+              <p class="slide-text">Vestibulum tincidunt ante ipsum</p>
+              <a href="javascript:void(0);" class="btn bg-color_primary">VIEW SERVICES <span class="btn-plus">+</span></a> 
+            </div>-->
+         <!--  </div> -->
+        </div>
+      </div>
+    </section>
+    
+  </div>
+  <!-- end iview -->
+
+  <section class="oferta container-fluid">
+    <div class="block-hourse">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="block-hourse__inner block-hourse__inner_first">
+            <p class="block-hourse__title"><i class="icon icon-note"></i> Diplomado en Homeopatía Clínica</p>
+            <img class="logo__img" src="img/oferta/madmon.jpg" height="50" width="294" alt="hom">
+            <!--<p class="block-hourse__text">OFERTA EDUCATIVA</p>
+            <a class="btn btn_transparent" href="javascript:void(0);">GET AN APPOINTMENT</a> -->
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="block-hourse__inner ">
+
+            <img class="logo__img" src="img/oferta/botarga.png" height="30" width="294" alt="botarga">
+            <!--<p class="block-hourse__text">OFERTA EDUCATIVA</p>
+            <a class="btn btn_transparent" href="javascript:void(0);">GET AN APPOINTMENT</a> -->
+          </div>
+        </div>
+        <section class="col-md-5">
+          <div class="block-hourse__inner block-hourse__inner_second">
+            <div class="block-hourse__title"><i class="icon icon-clock"></i> Maestría en Admnistración en sistemas de
+              Salud</div>
+            <img class="logo__img" src="img/oferta/homeocli.jpg" height="50" width="294" alt="madmon">
+
+          </div>
+        </section>
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end block-hourse -->
+  </section>
+  <!-- end container -->
+
+  <section class="form advantages wow fadeInLeft" data-wow-delay="1s">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="ui-title-block">Bienvenidos al <strong class="font-weight_600">Instituto </strong><span
+              class="font-weight-norm color_primary">Hahnemann</span></h1>
+          <div class="ui-subtitle-block">Ponte en contacto con nosotros llenando el siguiente formulario</div>
+        </div>
+        <section class="advantages__inner col-sm-4">
+          <form role="form">
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="nombre" class="form-control" id="nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono:</label>
+              <input type="telefono" class="form-control" id="telefono">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+
+        </section>
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end advantages -->
+
+
+  <!-- end section -->
+
+
+
+  <!--<section class="subscribe bg bg_6 bg_transparent color_white wow zoomIn" data-wow-delay="1s">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="subscribe__inner clearfix">
+            <div class="pull-left">
+              <h2 class="subscribe__title">Suscríbete y mantente informado</h2>
+              <p class="subscribe__text">Enviaremos información a tu bandeja de entrada</p>
+            </div>
+            <div class="pull-right">
+              <form class="form-inline" role="form">
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Ingresa tu correo ...">
+                  <input class="btn bg-success" type="submit" value="Suscribirme">
+                </div>
+              </form>
+              <a href=""><p class="subscribe__note">* Aviso de Privacidad</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  <!-- end subscribe -->
+
+
+  <footer class="footer">
+    <div class="footer__inner">
+
+      <!-- end footer__inner -->
+      <div class="footer__menu clearfix">
+        <div class="container-fluid">
+        
+           
+          <a href="index.html" class="logo "> <img class="" src="img/Logo_ICSMISH-09.png" height="44"
+              width="300" alt="Logo"> </a>
+          <ul class="col-md-4 col-xs-4">
+            <p>UBICACIÓN</p>
+            <p>Calle 4A Oriente Norte número 1352, colonia Barrio la Pimienta. C.P. 29034
+              Tuxtla Gutiérrez, Chiapas.</p>
+          </ul>
+          <ul class="col-md-4 col-xs-4 color-white">
+            <p>CONTACTANOS</p>
+            <p>961-12-56227</p>
+            <p>961-65-57220</p>
+            <p>facebook.com/icsmish</p>
+          </ul>
+    </div>
+        <!-- end container -->   
+      <!-- end footer__menu -->
+    </div>
+    <ul class="social">
+      <li><a href="https://web.whatsapp.com/send?phone=5219614401046&text=Bienvenido%20a%20Instituto%20en%20Ciencias%20de%20la%20Salud%20y%20Medicina%20Integral%20Samuel%20Hahnemann,%20cuentános%20tus%20dudas." target="_blank"><i class="icono fa fa-whatsapp fa-3x"></i></a></li>
+      <li><a target="_blank" href="https://www.facebook.com/icsmish"><i class="icono fa fa-facebook-square fa-3x"></i></a></li>
+      <!-- <li><a target="_blank" href="https://twitter.com/"><i class="""></i></a></li> -->
+      <!-- <li><a target="_blank" href="https://instagram.com/"><i class=""></i></a></li> -->
+    </ul>
+<div class="container-fluid text-center">
+  
+  <ul class=""> 
+      <span class="copyright" style="color:white;font-size:12px;font-weight:bold;">Instituto en Ciencias de la Salud y Medicina Integral "Samuel Hahnemann" © Copyrights 2022</span>
+  </ul>
+</div>
+  
+  <!-- end layout-theme -->
+  <span class="scroll-top bg-warning"> <i class="fa fa-angle-up"> </i></span>
+  <!--HOME SLIDER-->
+  <script src="plugins/iview/js/iview.js"></script>
+  <script src="plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+
+  <!-- SCRIPTS -->
+  <script src="https://use.fontawesome.com/d138cfe04b.js"></script>
+  <script type="text/javascript" src="plugins/isotope/jquery.isotope.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="plugins/bxslider/jquery.bxslider.min.js"></script>
+  <script src="plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="plugins/datetimepicker/jquery.datetimepicker.js"></script>
+  <script src="plugins/jelect/jquery.jelect.js"></script>
+  <script src="plugins/nouislider/jquery.nouislider.all.min.js"></script>
+
+  <!-- Loader -->
+  <script src="plugins/loader/js/classie.js"></script>
+  <script src="plugins/loader/js/pathLoader.js"></script>
+  <script src="plugins/loader/js/main.js"></script>
+  <script src="js/classie.js"></script>
+  <!--THEME-->
+  <script src="js/cssua.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
